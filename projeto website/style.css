@@ -1,0 +1,153 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+  /*  background-color: aquamarine; */
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    background-color: whitesmoke; 
+    width: 300px;   
+}
+
+.menu img {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.menu h1 {
+    text-align: center;
+    color:rgb(5, 108, 108);
+}
+
+.menu ul {
+    list-style: none;
+    padding-top: 25px;
+}
+
+.menu ul li {
+    padding-top: 25px;
+    font-size: 16px;;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.menu ul li a:hover {
+    color: rgb(5, 108, 108);
+    
+}
+
+.menu h1 {
+    padding: 12px;
+    font-size: 26px;
+}
+
+.main .header img {
+    max-width: 1000px;
+    max-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    /*background-color: rgb(5, 108, 108); */
+    min-height: 150px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: rgb(176, 176, 176);
+    min-height: 150px;
+    display: flex;
+}
+
+.endereco-fone {
+    margin-left: 25px;
+    margin-top: 26px;
+}
+
+
+/* TABELA */
+
+
+table .titulo {
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+table td {
+    padding: 12px;
+}
+
+table .info {
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* CONTATO */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+button {
+    width: 45%;
+    padding: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(5, 108, 108);
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px; 
+
+}
